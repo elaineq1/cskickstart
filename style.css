@@ -1,0 +1,88 @@
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    color: indigo; /* CSS Colors */
+    font-size: 48px;
+    font-family: 'Nunito', Helvetica; /* 'Nunito' is a Google Font */
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Nunito', Helvetica;
+    color: #333333; /* Hex Code */
+    font-size: 36px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Nunito', Helvetica;
+    color: #333333;
+    font-size: 24px;
+    text-align: center; /* Centers Text */
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #333333;
+}
+
+a {
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+img {
+    width: 100%; /* Width is set to 500px */
+}
+
+ul {
+    list-style: none; /* Removes Bullet Points */
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+}
+
+div {
+    background-color: lightblue;
+}
+
+#about-image {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#website {
+    background-color:lightpink;
+    padding: 15px;
+    margin: 15px;
+}
+
+.project-card {
+    width: 45%;
+    padding: 15px;
+    margin: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
